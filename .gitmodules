@@ -1,0 +1,3 @@
+[submodule "include/mega_utils"]
+	path = include/mega_utils
+	url = https://github.com/TilenS6/mega_utils.git

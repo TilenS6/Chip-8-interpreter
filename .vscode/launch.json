@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Debug (gdb)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/main.exe",
+            //"program": "${workspaceFolder}/bin/main",
+            "preLaunchTask": "Build C++ project with debugging information",
+            "args": ["--use-colour=yes"],            
+            "cwd": "${workspaceFolder}",
+            // Warning: not allowed
+            //"environment": [],
+            "terminal": "external"
+        }
+    ]
+}
